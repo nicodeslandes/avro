@@ -1,0 +1,12 @@
+﻿<ProjectConfiguration>
+  <Settings>
+    <AdditionalFilesToIncludeForProject>
+      <Value>..\..\..\..\..\share\test\**.*</Value>
+    </AdditionalFilesToIncludeForProject>
+    <IgnoredTests>
+      <NamedTestSelector>
+        <TestName>Avro.Test.Interop.InteropDataTests.TestInterop("../../../../../../../../build/interop/data")</TestName>
+      </NamedTestSelector>
+    </IgnoredTests>
+  </Settings>
+</ProjectConfiguration>

@@ -1,0 +1,11 @@
+﻿<ProjectConfiguration>
+  <Settings>
+    <AdditionalFilesToIncludeForProject>
+      <Value>..\..\share\VERSION.txt</Value>
+      <Value>..\..\..\..\..\share\VERSION.txt</Value>
+    </AdditionalFilesToIncludeForProject>
+    <HiddenComponentWarnings>
+      <Value>UnnecessaryFileIncludeWarning</Value>
+    </HiddenComponentWarnings>
+  </Settings>
+</ProjectConfiguration>

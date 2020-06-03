@@ -1,0 +1,8 @@
+﻿<ProjectConfiguration>
+  <Settings>
+    <AdditionalFilesToIncludeForProject>
+      <Value>..\..\..\..\..\share\test\schemas\mail.avpr</Value>
+    </AdditionalFilesToIncludeForProject>
+    <AllowCodeAnalysis>False</AllowCodeAnalysis>
+  </Settings>
+</ProjectConfiguration>
