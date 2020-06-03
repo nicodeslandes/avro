@@ -1,0 +1,155 @@
+{
+  "protocol": "All",
+  "namespace": "org.apache.avro.test",
+  "types": [
+    {
+      "type": "enum",
+      "name": "AllEnum",
+      "namespace": "org.apache.avro.test",
+      "symbols": [
+        "FOO",
+        "BAR"
+      ]
+    },
+    {
+      "type": "fixed",
+      "name": "FixedTest",
+      "namespace": "org.apache.avro.test",
+      "size": 10
+    },
+    {
+      "type": "record",
+      "name": "AllTestRecord",
+      "namespace": "org.apache.avro.test",
+      "fields": [
+        {
+          "name": "booleanTest",
+          "type": "boolean"
+        },
+        {
+          "name": "intTest",
+          "type": "int"
+        },
+        {
+          "name": "longTest",
+          "type": "long"
+        },
+        {
+          "name": "floatTest",
+          "type": "float"
+        },
+        {
+          "name": "doubleTest",
+          "type": "double"
+        },
+        {
+          "name": "bytesTest",
+          "type": "bytes"
+        },
+        {
+          "name": "stringTest",
+          "type": "string"
+        },
+        {
+          "name": "enumTest",
+          "type": "AllEnum"
+        },
+        {
+          "name": "fixedTest",
+          "type": "FixedTest"
+        },
+        {
+          "name": "arrayTest",
+          "type": {
+            "type": "array",
+            "items": "long"
+          }
+        },
+        {
+          "name": "mapTest",
+          "type": {
+            "type": "map",
+            "values": "long"
+          }
+        },
+        {
+          "name": "nestedTest",
+          "type": [
+            "AllTestRecord",
+            "null"
+          ]
+        }
+      ]
+    }
+  ],
+  "messages": {
+    "echo": {
+      "request": [
+        {
+          "name": "allTest",
+          "type": "AllTestRecord"
+        }
+      ],
+      "response": "AllTestRecord"
+    },
+    "echoParameters": {
+      "request": [
+        {
+          "name": "booleanTest",
+          "type": "boolean"
+        },
+        {
+          "name": "intTest",
+          "type": "int"
+        },
+        {
+          "name": "longTest",
+          "type": "long"
+        },
+        {
+          "name": "floatTest",
+          "type": "float"
+        },
+        {
+          "name": "doubleTest",
+          "type": "double"
+        },
+        {
+          "name": "bytesTest",
+          "type": "bytes"
+        },
+        {
+          "name": "stringTest",
+          "type": "string"
+        },
+        {
+          "name": "enumTest",
+          "type": "AllEnum"
+        },
+        {
+          "name": "fixedTest",
+          "type": "FixedTest"
+        },
+        {
+          "name": "arrayTest",
+          "type": {
+            "type": "array",
+            "items": "long"
+          }
+        },
+        {
+          "name": "mapTest",
+          "type": {
+            "type": "map",
+            "values": "long"
+          }
+        },
+        {
+          "name": "nestedTest",
+          "type": "AllTestRecord"
+        }
+      ],
+      "response": "AllTestRecord"
+    }
+  }
+}

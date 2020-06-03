@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27428.2027
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Avro.main", "src\apache\main\Avro.main.csproj", "{A0A5CA3C-F58C-4D07-98B0-2C7B62AB20F0}"
 EndProject
@@ -24,6 +24,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 		stylecop.json = stylecop.json
 	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Avro.ipc", "D:\Projects\GitHub\avro\lang\csharp\src\apache\ipc\Avro.ipc.csproj", "{767F8BD2-21E1-480D-ABD0-757F93F9FBDE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Avro.ipc.test", "D:\Projects\GitHub\avro\lang\csharp\src\apache\ipc.test\Avro.ipc.test.csproj", "{75973954-9C4D-499B-85E2-DB9511594F9A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +91,30 @@ Global
 		{AC4E1909-2594-4D01-9B2B-B832C07BAFE5}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{AC4E1909-2594-4D01-9B2B-B832C07BAFE5}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{AC4E1909-2594-4D01-9B2B-B832C07BAFE5}.Release|x86.ActiveCfg = Release|Any CPU
+		{767F8BD2-21E1-480D-ABD0-757F93F9FBDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{767F8BD2-21E1-480D-ABD0-757F93F9FBDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{767F8BD2-21E1-480D-ABD0-757F93F9FBDE}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{767F8BD2-21E1-480D-ABD0-757F93F9FBDE}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{767F8BD2-21E1-480D-ABD0-757F93F9FBDE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{767F8BD2-21E1-480D-ABD0-757F93F9FBDE}.Debug|x86.Build.0 = Debug|Any CPU
+		{767F8BD2-21E1-480D-ABD0-757F93F9FBDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{767F8BD2-21E1-480D-ABD0-757F93F9FBDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{767F8BD2-21E1-480D-ABD0-757F93F9FBDE}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{767F8BD2-21E1-480D-ABD0-757F93F9FBDE}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{767F8BD2-21E1-480D-ABD0-757F93F9FBDE}.Release|x86.ActiveCfg = Release|Any CPU
+		{767F8BD2-21E1-480D-ABD0-757F93F9FBDE}.Release|x86.Build.0 = Release|Any CPU
+		{75973954-9C4D-499B-85E2-DB9511594F9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75973954-9C4D-499B-85E2-DB9511594F9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75973954-9C4D-499B-85E2-DB9511594F9A}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{75973954-9C4D-499B-85E2-DB9511594F9A}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{75973954-9C4D-499B-85E2-DB9511594F9A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{75973954-9C4D-499B-85E2-DB9511594F9A}.Debug|x86.Build.0 = Debug|Any CPU
+		{75973954-9C4D-499B-85E2-DB9511594F9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75973954-9C4D-499B-85E2-DB9511594F9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75973954-9C4D-499B-85E2-DB9511594F9A}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{75973954-9C4D-499B-85E2-DB9511594F9A}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{75973954-9C4D-499B-85E2-DB9511594F9A}.Release|x86.ActiveCfg = Release|Any CPU
+		{75973954-9C4D-499B-85E2-DB9511594F9A}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
